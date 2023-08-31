@@ -1,18 +1,4 @@
 
-.cards{
-    display: grid;
-    background-color: white;
-    margin: 2px 2px 2px 2px;
-    gap: 10px;
-    
-    border-radius: 8px;
-    padding: 5px;
-    width: 400px;
-    height: 250px;
-
-
-    
-}
 
 
 .card-content {
@@ -20,31 +6,42 @@
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
-    margin: 3px 3px 3px 3px;
+    margin: 20px 3px 3px 3px;
+    background-color: white;
+    border-radius: 8px;
+    width: 300px;
+    height: 400px;
 
+   
 }
 
 body{
     background-color: #edf2fb;
-
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
 }
 
 section{
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
     grid-template-rows: 1fr 1fr;
+    column-gap: 2%;
+    row-gap: 2%;
 
 }
 
 .learn{
   
     font-size: 12px;
-    text-align: center;
+    align-items: center;
     display:flex;
     margin: auto;
     justify-content: center;
     border: none;
     background-color: white;
+    font-weight: bold;
+    color:black;
+    opacity: 0.7;
 
 
   }
@@ -62,8 +59,30 @@ section{
     display: grid;
   grid-template-columns: 1fr; 
   grid-gap: 10px;
-  margin-top: 20px;
-  
-
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
   
   }
+
+
+
+.learn:hover{
+
+    background-color: skyblue;
+    color: white;
+    opacity: 0.9;
+    transition: 0.3s;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-size: 13px;
+
+}
+
+p{
+    font-size: larger;
+
+
+}
+
+
